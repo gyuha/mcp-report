@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강화 스케줄 다이어그램</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c4660;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .diagram-container {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .visual {
+            background-color: #e0e0e0;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .schedules {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .schedule {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #3a5a7a;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #4a7296;
+            margin-bottom: 10px;
+        }
+        .pattern {
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .examples {
+            background-color: #f0f4f8;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>강화 스케줄 다이어그램</h1>
+    
+    <div class="diagram-container">
+        <p>강화 스케줄(Reinforcement Schedule)은 행동에 대해 강화물이 제공되는 규칙이나 패턴을 의미합니다. B.F. Skinner는 다양한 강화 스케줄이 동물의 행동 패턴에 어떤 영향을 미치는지 연구했습니다.</p>
+        
+        <div class="visual">
+            <p>네 가지 기본 강화 스케줄에 따른 반응 패턴 그래프</p>
+        </div>
+        
+        <div class="schedules">
+            <div class="schedule">
+                <h3>고정 비율 스케줄(FR)</h3>
+                <p>일정한 수의 반응 후에 강화물이 제공됩니다.</p>
+                <p class="pattern"><strong>반응 패턴:</strong> 강화 후 잠시 멈췄다가 빠른 속도로 반응</p>
+                <div class="examples">
+                    <p><strong>예시:</strong> FR5는 5번의 반응마다 강화</p>
+                    <p><strong>실생활 예:</strong> 성과급, 커미션, 할당량 시스템</p>
+                </div>
+            </div>
+            
+            <div class="schedule">
+                <h3>가변 비율 스케줄(VR)</h3>
+                <p>평균적으로 일정한 수의 반응 후에 강화물이 제공되지만, 정확한 수는 매번 달라집니다.</p>
+                <p class="pattern"><strong>반응 패턴:</strong> 매우 높고 일정한 반응률, 소거에 가장 강한 저항성</p>
+                <div class="examples">
+                    <p><strong>예시:</strong> VR10은 평균 10번의 반응마다 강화 (범위: 5-15번)</p>
+                    <p><strong>실생활 예:</strong> 슬롯머신, 복권, 도박 게임</p>
+                </div>
+            </div>
+            
+            <div class="schedule">
+                <h3>고정 간격 스케줄(FI)</h3>
+                <p>일정한 시간이 지난 후 첫 번째 반응에 대해 강화물이 제공됩니다.</p>
+                <p class="pattern"><strong>반응 패턴:</strong> 강화 후 반응이 줄었다가, 다음 강화 시간이 가까워지면 점점 증가하는 특징적인 경사 패턴</p>
+                <div class="examples">
+                    <p><strong>예시:</strong> FI5min은 5분이 지난 후 첫 반응에 강화</p>
+                    <p><strong>실생활 예:</strong> 월급, 정기 시험, 정해진 시간에 이루어지는 점검</p>
+                </div>
+            </div>
+            
+            <div class="schedule">
+                <h3>가변 간격 스케줄(VI)</h3>
+                <p>평균적으로 일정한 시간 간격 후 첫 번째 반응에 강화물이 제공되지만, 정확한 시간은 매번 달라집니다.</p>
+                <p class="pattern"><strong>반응 패턴:</strong> 중간 정도의 일정한 반응률, 소거에 대한 높은 저항성</p>
+                <div class="examples">
+                    <p><strong>예시:</strong> VI10min은 평균 10분마다 강화 (범위: 5-15분)</p>
+                    <p><strong>실생활 예:</strong> 불시 점검, 이메일 확인, 낚시</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="findings">
+        <h2>주요 연구 결과</h2>
+        <ul>
+            <li>비율 스케줄(FR, VR)은 일반적으로 간격 스케줄(FI, VI)보다 더 높은 반응률을 생성합니다.</li>
+            <li>가변 스케줄(VR, VI)은 고정 스케줄(FR, FI)보다 소거에 더 큰 저항성을 보입니다.</li>
+            <li>가변 비율 스케줄(VR)은 가장 높고 지속적인 반응률을 만들어냅니다.</li>
+            <li>고정 간격 스케줄(FI)은 '경사 현상'이라 불리는 특징적인 반응 패턴을 보입니다.</li>
+        </ul>
+    </div>
+    
+    <div class="applications">
+        <h2>강화 스케줄의 응용</h2>
+        <ul>
+            <li><strong>교육:</strong> 학습 동기 부여와 참여 증진</li>
+            <li><strong>행동 수정:</strong> 바람직한 행동 증가, 문제 행동 감소</li>
+            <li><strong>직장:</strong> 생산성 증진, 근로자 동기 부여</li>
+            <li><strong>게임 디자인:</strong> 사용자 참여 및 중독성 증진(특히 가변 비율 스케줄 활용)</li>
+            <li><strong>소비자 행동:</strong> 브랜드 충성도 및 반복 구매 증진</li>
+        </ul>
+    </div>
+</body>
+</html>
