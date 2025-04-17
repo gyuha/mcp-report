@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행동심리학 개요 - 행동심리학 연구 프로젝트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- 헤더 섹션 -->
+    <header class="bg-gradient-to-r from-purple-700 to-indigo-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 md:py-10">
+            <h1 class="text-3xl md:text-5xl font-bold mb-2">행동심리학 개요</h1>
+            <p class="text-xl opacity-90">행동심리학의 역사, 이론 및 주요 연구자</p>
+        </div>
+    </header>
+
+    <!-- 네비게이션 바 -->
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center justify-between py-3">
+                <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block">
+                    <a href="index.html" class="text-lg font-bold leading-relaxed inline-block mr-4 py-2">
+                        행동심리학
+                    </a>
+                    <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-indigo-600 block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar()">
+                        <span>≡</span>
+                    </button>
+                </div>
+                <div class="lg:flex flex-grow items-center hidden" id="navbar-menu">
+                    <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                        <li class="nav-item">
+                            <a href="overview.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-indigo-600">
+                                개요
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="episodes-1.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                사례연구 (1)
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="episodes-2.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                사례연구 (2)
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="applications.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                응용분야
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="trends.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                연구동향
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- 행동심리학 정의 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-800">행동심리학이란?</h2>
+                <div class="flex flex-col-reverse md:flex-row items-center">
+                    <div class="md:w-2/3 md:pr-6">
+                        <p class="mb-4 text-gray-700">
+                            행동심리학(Behavioral Psychology) 또는 행동주의(Behaviorism)는 관찰과 예측이 가능한 행동들을 통해 인간이나 동물의 심리를 객관적으로 연구할 수 있다고 보는 심리학 이론입니다. 이 접근법은 내적인 정신 상태보다는 외부에서 관찰 가능한 행동에 초점을 맞추며, 환경적 요인이 행동에 어떻게 영향을 미치는지 연구합니다.
+                        </p>
+                        <p class="text-gray-700">
+                            행동주의는 1913년 존 브로더스 왓슨(John Broadus Watson)이 자신의 심리학 논문에서 처음으로 정의했습니다. 왓슨은 심리학이 객관적이고 과학적인 학문이 되기 위해서는 관찰 가능한 행동에 초점을 맞추어야 한다고 주장했습니다. 이는 당시 주류였던 내성법(introspection)과 의식 연구에 대한 반발이었습니다.
+                        </p>
+                    </div>
+                    <div class="md:w-1/3 mb-6 md:mb-0">
+                        <img src="https://images.unsplash.com/photo-1576671414121-aa2d60f1089c" alt="행동심리학 개념" class="rounded-lg shadow-md w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 주요 연구자들 섹션 -->
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">주요 연구자들</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- 연구자 카드 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
+                    <img src="https://images.unsplash.com/photo-1580894742597-87bc8789db3d" alt="존 브로더스 왓슨" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-xl font-semibold mb-2 text-indigo-700">존 브로더스 왓슨</h3>
+                        <p class="text-sm text-gray-500 mb-2">1878-1958</p>
+                        <p class="text-gray-600 mb-3">
+                            행동주의의 창시자로, 심리학이 객관적으로 관찰 가능한 행동만을 연구해야 한다고 주장했습니다. 그의 유명한 "작은 앨버트 실험"은 공포 반응의 조건화를 보여주었습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 연구자 카드 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
+                    <img src="https://images.unsplash.com/photo-1580894742597-87bc8789db3d" alt="버러스 프레더릭 스키너" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-xl font-semibold mb-2 text-indigo-700">B.F. 스키너</h3>
+                        <p class="text-sm text-gray-500 mb-2">1904-1990</p>
+                        <p class="text-gray-600 mb-3">
+                            급진적 행동주의(Radical Behaviorism)를 발전시켰으며, 조작적 조건화(Operant Conditioning) 이론을 확립했습니다. 스키너는 행동주의를 바람직한 행동을 습득하기 위해 보상을 통해 행동을 형성해 가는 방법으로 정의했습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 연구자 카드 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
+                    <img src="https://images.unsplash.com/photo-1580894742597-87bc8789db3d" alt="이반 파블로프" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-xl font-semibold mb-2 text-indigo-700">이반 파블로프</h3>
+                        <p class="text-sm text-gray-500 mb-2">1849-1936</p>
+                        <p class="text-gray-600 mb-3">
+                            러시아의 생리학자로, 개를 대상으로 한 실험을 통해 고전적 조건화(Classical Conditioning) 이론을 발전시켰습니다. 그의 연구는 행동주의 심리학의 기초가 되었습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 연구자 카드 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
+                    <img src="https://images.unsplash.com/photo-1580894742597-87bc8789db3d" alt="앨버트 반두라" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-xl font-semibold mb-2 text-indigo-700">앨버트 반두라</h3>
+                        <p class="text-sm text-gray-500 mb-2">1925-2021</p>
+                        <p class="text-gray-600 mb-3">
+                            사회학습이론(Social Learning Theory)을 발전시켰으며, 관찰학습(Observational Learning)의 중요성을 강조했습니다. 그는 행동주의와 인지주의를 통합하는 접근법을 제시했습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 주요 이론들 섹션 -->
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">주요 이론들</h2>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="p-6 md:p-8">
+                    <!-- 이론 1 -->
+                    <div class="mb-8">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                                <span class="font-bold">1</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-indigo-700">고전적 조건화(Classical Conditioning)</h3>
+                        </div>
+                        <div class="flex flex-col md:flex-row">
+                            <div class="md:w-2/3 md:pr-6">
+                                <p class="text-gray-700 mb-4">
+                                    이반 파블로프가 발전시킨 이론으로, 중립적 자극이 무조건 자극과 반복적으로 연결되면 조건 자극이 되어 조건 반응을 일으키게 된다는 이론입니다. 파블로프의 개 실험이 대표적인 예입니다.
+                                </p>
+                                <blockquote>
+                                    고전적 조건화는 생물학적으로 연관이 없는 자극이 무조건 자극과 연결되어 조건 반응을 유발하는 학습 과정입니다.
+                                </blockquote>
+                            </div>
+                            <div class="md:w-1/3 mt-4 md:mt-0">
+                                <img src="https://images.unsplash.com/photo-1519791883288-dc8bd696e667" alt="고전적 조건화" class="rounded-lg shadow-md w-full h-auto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 이론 2 -->
+                    <div class="mb-8">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                                <span class="font-bold">2</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-indigo-700">조작적 조건화(Operant Conditioning)</h3>
+                        </div>
+                        <div class="flex flex-col md:flex-row">
+                            <div class="md:w-2/3 md:pr-6">
+                                <p class="text-gray-700 mb-4">
+                                    B.F. 스키너가 발전시킨 이론으로, 행동의 결과(보상 또는 처벌)에 따라 행동의 빈도가 증가하거나 감소한다는 이론입니다. 이 이론은 강화(reinforcement)와 처벌(punishment)의 개념을 중심으로 합니다.
+                                </p>
+                                <blockquote>
+                                    조작적 조건화는 환경과의 상호작용을 통해 자발적인 행동이 그 결과에 따라 강화되거나 약화되는 과정입니다.
+                                </blockquote>
+                            </div>
+                            <div class="md:w-1/3 mt-4 md:mt-0">
+                                <img src="https://images.unsplash.com/photo-1519791883288-dc8bd696e667" alt="조작적 조건화" class="rounded-lg shadow-md w-full h-auto">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 이론 3 -->
+                    <div>
+                        <div class="flex items-center mb-3">
+                            <div class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                                <span class="font-bold">3</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-indigo-700">관찰학습(Observational Learning)</h3>
+                        </div>
+                        <div class="flex flex-col md:flex-row">
+                            <div class="md:w-2/3 md:pr-6">
+                                <p class="text-gray-700 mb-4">
+                                    앨버트 반두라가 발전시킨 이론으로, 다른 사람의 행동을 관찰하고 모방함으로써 새로운 행동을 학습할 수 있다는 이론입니다. 반두라의 보보인형 실험이 대표적인 예입니다.
+                                </p>
+                                <blockquote>
+                                    관찰학습은 타인의 행동과 그 결과를 관찰함으로써 새로운 행동을 습득하는 과정으로, 사회적 학습의 중요한 메커니즘입니다.
+                                </blockquote>
+                            </div>
+                            <div class="md:w-1/3 mt-4 md:mt-0">
+                                <img src="https://images.unsplash.com/photo-1519791883288-dc8bd696e667" alt="관찰학습" class="rounded-lg shadow-md w-full h-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 현대의 행동심리학 섹션 -->
+        <section class="mb-12">
+            <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-800">현대의 행동심리학</h2>
+                <p class="mb-4 text-gray-700">
+                    현대에 이르러 전통적인 행동주의 이론들은 그 자체로뿐만 아니라 사회학습이론, 동물행동학, 생태학적 이론 등 다양한 이론과의 결합으로 확장되고 있습니다. 행동수정이론은 인간이 자신과 타인을 위한 더 나은 삶을 위해 미래지향적인 의지와 환경 개선을 통해 발전할 수 있다는 점에서 중요한 의미를 갖습니다.
+                </p>
+                <p class="mb-6 text-gray-700">
+                    행동심리학은 교육, 임상심리학, 조직심리학, 건강심리학 등 다양한 분야에 응용되고 있으며, 인지행동치료(CBT)와 같은 치료 접근법의 기초가 되었습니다.
+                </p>
+
+                <div class="bg-white rounded-lg p-4 shadow-inner">
+                    <h3 class="text-lg font-semibold mb-3 text-indigo-700">현대 행동심리학의 응용 분야</h3>
+                    <ul class="list-disc pl-5 text-gray-700 grid grid-cols-1 md:grid-cols-2 gap-2">
+                        <li>임상심리학 및 정신건강</li>
+                        <li>교육심리학</li>
+                        <li>조직행동 및 인사관리</li>
+                        <li>소비자심리학 및 마케팅</li>
+                        <li>아동발달</li>
+                        <li>건강행동 및 중독치료</li>
+                        <li>스포츠심리학</li>
+                        <li>환경심리학</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 행동심리학 타임라인 -->
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">행동심리학의 발전 타임라인</h2>
+            <div class="bg-white rounded-lg shadow-md p-6 overflow-x-auto">
+                <div class="min-w-[800px]">
+                    <div class="relative">
+                        <!-- 타임라인 선 -->
+                        <div class="absolute h-1 w-full bg-indigo-200 top-6"></div>
+                        
+                        <!-- 타임라인 항목들 -->
+                        <div class="flex justify-between relative">
+                            <!-- 항목 1 -->
+                            <div class="w-1/6 text-center">
+                                <div class="bg-indigo-600 w-4 h-4 rounded-full mx-auto mb-2 z-10 relative"></div>
+                                <h4 class="font-bold">1890년대</h4>
+                                <p class="text-sm mt-1">파블로프의 고전적 조건화 실험 시작</p>
+                            </div>
+                            
+                            <!-- 항목 2 -->
+                            <div class="w-1/6 text-center">
+                                <div class="bg-indigo-600 w-4 h-4 rounded-full mx-auto mb-2 z-10 relative"></div>
+                                <h4 class="font-bold">1913년</h4>
+                                <p class="text-sm mt-1">왓슨의 행동주의 선언</p>
+                            </div>
+                            
+                            <!-- 항목 3 -->
+                            <div class="w-1/6 text-center">
+                                <div class="bg-indigo-600 w-4 h-4 rounded-full mx-auto mb-2 z-10 relative"></div>
+                                <h4 class="font-bold">1938년</h4>
+                                <p class="text-sm mt-1">스키너의 조작적 조건화 이론 발표</p>
+                            </div>
+                            
+                            <!-- 항목 4 -->
+                            <div class="w-1/6 text-center">
+                                <div class="bg-indigo-600 w-4 h-4 rounded-full mx-auto mb-2 z-10 relative"></div>
+                                <h4 class="font-bold">1960년대</h4>
+                                <p class="text-sm mt-1">반두라의 사회학습이론 발전</p>
+                            </div>
+                            
+                            <!-- 항목 5 -->
+                            <div class="w-1/6 text-center">
+                                <div class="bg-indigo-600 w-4 h-4 rounded-full mx-auto mb-2 z-10 relative"></div>
+                                <h4 class="font-bold">1970년대</h4>
+                                <p class="text-sm mt-1">인지행동치료(CBT) 발전</p>
+                            </div>
+                            
+                            <!-- 항목 6 -->
+                            <div class="w-1/6 text-center">
+                                <div class="bg-indigo-600 w-4 h-4 rounded-full mx-auto mb-2 z-10 relative"></div>
+                                <h4 class="font-bold">현재</h4>
+                                <p class="text-sm mt-1">신경과학과의 통합</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 섹션 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">행동심리학 연구 프로젝트</h3>
+                    <p class="text-gray-400">행동심리학의 이론과 원리, 그리고 일상생활에서의 응용에 대한 종합적인 연구 프로젝트입니다.</p>
+                </div>
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">페이지 링크</h3>
+                    <ul class="text-gray-400">
+                        <li class="mb-1"><a href="index.html" class="hover:text-white">홈</a></li>
+                        <li class="mb-1"><a href="overview.html" class="hover:text-white">행동심리학 개요</a></li>
+                        <li class="mb-1"><a href="episodes-1.html" class="hover:text-white">사례 연구 (1)</a></li>
+                        <li class="mb-1"><a href="episodes-2.html" class="hover:text-white">사례 연구 (2)</a></li>
+                        <li class="mb-1"><a href="applications.html" class="hover:text-white">응용 분야</a></li>
+                        <li class="mb-1"><a href="trends.html" class="hover:text-white">연구 동향</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <h3 class="text-xl font-bold mb-2">프로젝트 정보</h3>
+                    <p class="text-gray-400">© 2025 행동심리학 연구 프로젝트</p>
+                    <p class="text-gray-400">최종 업데이트: April 18, 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleNavbar() {
+            const navbarMenu = document.getElementById('navbar-menu');
+            if (navbarMenu.classList.contains('hidden')) {
+                navbarMenu.classList.remove('hidden');
+            } else {
+                navbarMenu.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>

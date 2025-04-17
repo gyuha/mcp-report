@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행동심리학 응용 분야 - 행동심리학 연구 프로젝트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- 헤더 섹션 -->
+    <header class="bg-gradient-to-r from-purple-700 to-indigo-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 md:py-10">
+            <h1 class="text-3xl md:text-5xl font-bold mb-2">행동심리학 응용 분야</h1>
+            <p class="text-xl opacity-90">다양한 분야에서의 행동심리학 원리 활용</p>
+        </div>
+    </header>
+
+    <!-- 네비게이션 바 -->
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center justify-between py-3">
+                <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block">
+                    <a href="index.html" class="text-lg font-bold leading-relaxed inline-block mr-4 py-2">
+                        행동심리학
+                    </a>
+                    <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-indigo-600 block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar()">
+                        <span>≡</span>
+                    </button>
+                </div>
+                <div class="lg:flex flex-grow items-center hidden" id="navbar-menu">
+                    <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                        <li class="nav-item">
+                            <a href="overview.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                개요
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="episodes-1.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                사례연구 (1)
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="episodes-2.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                사례연구 (2)
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="applications.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-indigo-600">
+                                응용분야
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="trends.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                연구동향
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- 소개 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-800">행동심리학의 응용 분야</h2>
+                <p class="mb-4 text-gray-700">
+                    행동심리학은 인간과 동물의 행동을 과학적으로 연구하는 심리학의 한 분야로, 그 원리와 이론은 다양한 분야에 응용되어 개인과 사회에 큰 영향을 미치고 있습니다. 
+                    이 페이지에서는 행동심리학이 어떻게 다양한 분야에 응용되고 있는지 종합적으로 살펴보겠습니다.
+                </p>
+                <div class="flex justify-center my-6">
+                    <img src="images/applications_hero.jpg" alt="행동심리학 응용" class="rounded-lg shadow-md max-w-full h-auto" style="max-height: 300px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- 마케팅 및 소비자 행동 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">1. 마케팅 및 소비자 행동</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학은 마케팅과 소비자 행동 분야에서 광범위하게 활용되고 있습니다. 기업들은 소비자의 구매 결정 과정에 영향을 미치기 위해 다양한 행동심리학 원리를 적용하고 있습니다.
+                </p>
+
+                <h3 class="text-xl font-bold mb-4 text-indigo-700">주요 응용 원리</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                    <div class="bg-indigo-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-indigo-800 mb-2">정보 격차 이론 (Information Gap Theory)</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>소비자의 호기심을 자극하여 정보를 더 알고 싶게 만듦</li>
+                            <li>티저 광고, "더 보기" 기능, 자극적인 기사 제목 등에 활용</li>
+                        </ul>
+                    </div>
+                    <div class="bg-indigo-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-indigo-800 mb-2">유인 효과 (Decoy Effect)</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>특정 선택지가 다른 선택지를 더 매력적으로 보이게 만드는 현상</li>
+                            <li>제품 라인업 구성, 가격 책정 전략 등에 활용</li>
+                        </ul>
+                    </div>
+                    <div class="bg-indigo-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-indigo-800 mb-2">상호성 원칙 (Reciprocity Principle)</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>받은 것에 대해 돌려주고자 하는 심리 활용</li>
+                            <li>무료 샘플, 서비스, 체험 기간 제공 등의 전략에 활용</li>
+                        </ul>
+                    </div>
+                    <div class="bg-indigo-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-indigo-800 mb-2">사회적 증거 (Social Proof)</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>다른 사람들의 행동이나 의견을 따르려는 경향 활용</li>
+                            <li>리뷰, 평점, "주문 폭주" 문구, 인플루언서 마케팅 등에 활용</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 class="text-xl font-bold mb-4 text-indigo-700">구체적 마케팅 전략</h3>
+                <div class="overflow-x-auto">
+                    <table class="research-table">
+                        <thead>
+                            <tr>
+                                <th>전략</th>
+                                <th>설명</th>
+                                <th>실제 사례</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>맞춤형 권장 사항</td>
+                                <td>개인의 행동 데이터를 분석하여 관련성 높은 제품 추천</td>
+                                <td>넷플릭스의 콘텐츠 추천, 아마존의 "함께 구매한 상품" 기능</td>
+                            </tr>
+                            <tr>
+                                <td>게임화 (Gamification)</td>
+                                <td>게임 요소를 통합하여 참여와 충성도 증진</td>
+                                <td>스타벅스 리워드, 항공사 마일리지, 모바일 앱 배지 시스템</td>
+                            </tr>
+                            <tr>
+                                <td>행동 대상 재지정</td>
+                                <td>이전 상호작용을 기반으로 타겟 광고 제공</td>
+                                <td>장바구니 포기 이메일, 검색한 상품 관련 배너 광고</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 교육 및 학습 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">2. 교육 및 학습</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학은 교육 환경에서 학습 효과를 높이고 행동 문제를 관리하는 데 중요한 역할을 합니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">행동수정 기법 응용</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">점진적 노출 및 강화</h4>
+                                <p class="text-gray-700">수면-각성 전환 문제를 가진 아동의 점진적 각성 유도, 두려움에 대한 체계적 둔감화 등에 활용됩니다.</p>
+                            </div>
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">토큰 경제 시스템</h4>
+                                <p class="text-gray-700">적절한 행동에 토큰을 제공하고 이를 보상으로 교환할 수 있게 하는 시스템으로, ADHD 학생의 학습 지원에 효과적입니다.</p>
+                            </div>
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">모델링 및 관찰학습</h4>
+                                <p class="text-gray-700">적절한 행동을 관찰하고 모방하도록 유도하는 방법으로, 자폐 스펙트럼 장애 학생의 사회적 기술 향상에 활용됩니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">교육 환경 설계</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">행동 계약</h4>
+                                <p class="text-gray-700">학생과 교사가 목표 행동과 보상을 명시한 계약을 작성하여 자기 책임감과 목표 지향적 행동을 촉진합니다.</p>
+                            </div>
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">시각적 지원</h4>
+                                <p class="text-gray-700">시각적 일정표, 사회적 이야기, 비디오 모델링 등을 통해 예측 가능성을 제공하고 적절한 행동 학습을 지원합니다.</p>
+                            </div>
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">즉각적 피드백</h4>
+                                <p class="text-gray-700">적절한 행동에 대한 즉각적이고 구체적인 피드백을 제공하여 행동을 강화하고 학습 효과를 높입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 임상 및 건강 심리학 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">3. 임상 및 건강 심리학</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학은 다양한 심리적 장애 치료와 건강 행동 증진에 광범위하게 활용됩니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">인지행동치료(CBT)</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">불안장애 치료:</span> 인지 재구성, 노출 치료, 이완 훈련 등을 통해 부정적 사고 패턴을 변화시키고 불안을 감소시킵니다.
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">우울증 치료:</span> 행동 활성화, 인지 재구성, 문제 해결 훈련 등을 통해 긍정적 활동 참여를 유도하고 부정적 사고에 도전합니다.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">건강 행동 변화</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">금연 프로그램:</span> 자극 통제, 대체 행동, 점진적 감소 등을 통해 흡연 습관을 변화시키고 금연 성공률을 높입니다.
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">체중 관리 프로그램:</span> 목표 설정, 자기 모니터링, 자극 통제 등을 통해 건강한 식습관과 운동 습관을 형성합니다.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 직장 및 조직 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">4. 조직 및 산업 심리학</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학은 직장 환경에서 직원의 생산성, 만족도, 안전을 향상시키는 데 활용됩니다.
+                </p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">성과 관리</h3>
+                        <div class="bg-indigo-50 p-4 rounded-lg mb-4">
+                            <h4 class="font-bold text-indigo-800 mb-2">목표 설정 이론</h4>
+                            <p class="text-gray-700">구체적이고 도전적인 목표를 설정하여 성과를 향상시키고 직원들에게 동기를 부여합니다.</p>
+                        </div>
+                        <div class="bg-indigo-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-indigo-800 mb-2">피드백 시스템</h4>
+                            <p class="text-gray-700">즉각적이고 구체적인 피드백을 제공하여 행동을 수정하고 성과를 개선합니다.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">조직 문화 및 행동</h3>
+                        <div class="bg-indigo-50 p-4 rounded-lg mb-4">
+                            <h4 class="font-bold text-indigo-800 mb-2">강화 계획</h4>
+                            <p class="text-gray-700">바람직한 직장 행동에 대한 보상 시스템을 통해 팀워크, 혁신, 고객 서비스 등을 촉진합니다.</p>
+                        </div>
+                        <div class="bg-indigo-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-indigo-800 mb-2">행동 기반 안전</h4>
+                            <p class="text-gray-700">안전 행동을 관찰하고 피드백을 제공하여 산업 현장에서의 사고를 예방합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 기술 및 디지털 환경 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">5. 기술 및 디지털 환경</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학은 디지털 제품과 서비스 설계에 중요한 영향을 미칩니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">사용자 경험(UX) 설계</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-indigo-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3">1</div>
+                                <div>
+                                    <h4 class="font-bold text-indigo-800">행동 디자인</h4>
+                                    <p class="text-gray-700">사용자의 행동 패턴을 고려한 인터페이스를 설계하여 직관적이고 사용하기 쉬운 제품을 개발합니다.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-indigo-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3">2</div>
+                                <div>
+                                    <h4 class="font-bold text-indigo-800">넛지(Nudge) 이론</h4>
+                                    <p class="text-gray-700">사용자의 선택 아키텍처를 조정하여 바람직한 행동을 유도합니다. 건강 앱, 금융 앱 등에서 활용됩니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">디지털 중독 관리</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-indigo-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3">1</div>
+                                <div>
+                                    <h4 class="font-bold text-indigo-800">자기 조절 메커니즘</h4>
+                                    <p class="text-gray-700">사용 시간 알림, 휴식 유도 기능 등을 통해 디지털 기기 과다 사용을 방지합니다.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-indigo-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mr-3">2</div>
+                                <div>
+                                    <h4 class="font-bold text-indigo-800">보상 시스템 설계</h4>
+                                    <p class="text-gray-700">적절한 보상 일정 및 강화 계획을 통해 건강한 디지털 습관을 형성합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 공공 정책 및 사회 변화 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">6. 공공 정책 및 사회 변화</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학은 공공 정책 설계와 사회적 변화를 촉진하는 데 활용됩니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-gradient-to-r from-indigo-50 to-purple-50 p-5 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">행동 인사이트 팀</h3>
+                        <p class="mb-3 text-gray-700">여러 국가에서는 행동과학 원리를 공공 정책에 적용하는 전담 팀을 운영하고 있습니다:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>영국의 Behavioural Insights Team</li>
+                            <li>미국의 Social and Behavioral Sciences Team</li>
+                            <li>행동과학 원리를 적용한 정책 설계</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gradient-to-r from-indigo-50 to-purple-50 p-5 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">지속 가능한 행동 변화</h3>
+                        <p class="mb-3 text-gray-700">환경 보호 및 공중 보건 분야에서의 행동 변화 촉진:</p>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>재활용, 에너지 절약 등의 환경 보호 행동 촉진</li>
+                            <li>예방 접종, 건강 검진 등의 참여 증진</li>
+                            <li>사회적 규범, 피드백, 약속 등의 전략 활용</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 일상생활 적용 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">7. 일상생활 적용</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학의 원리는 개인의 일상생활에서도 쉽게 적용할 수 있습니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">습관 형성 및 변화</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-bold text-indigo-800">작은 시작(Tiny Habits)</h4>
+                                <p class="text-gray-700">큰 변화 대신 작은 행동부터 시작하고, 점진적으로 확장하여 지속 가능한 변화를 만듭니다.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-indigo-800">트리거 활용 및 환경 설계</h4>
+                                <p class="text-gray-700">기존 습관에 새로운 습관을 연결하고, 원하는 행동을 촉진하는 환경을 조성합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">자기 관리 및 생산성</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-bold text-indigo-800">포모도로 기법</h4>
+                                <p class="text-gray-700">25분 집중 작업 후 5분 휴식하는 방식으로 작업을 관리하고 집중력을 향상시킵니다.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-indigo-800">사회적 약속 및 성취 시각화</h4>
+                                <p class="text-gray-700">목표를 공개하여 책임감을 증가시키고, 목표 달성 후의 모습을 상상하여 동기를 부여합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 윤리적 고려사항 섹션 -->
+        <section class="mb-12">
+            <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">행동심리학 응용의 윤리적 고려사항</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학의 원리를 응용할 때는 다음과 같은 윤리적 측면을 고려해야 합니다:
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">투명성</h3>
+                        <p class="text-gray-700">행동 변화 전략의 사용에 대해 투명하게 공개하고, 조작이나 기만을 지양해야 합니다.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">자율성 존중</h3>
+                        <p class="text-gray-700">개인의 선택권과 자율성을 존중하고, 강제나 과도한 압력을 지양해야 합니다.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">이익과 해악의 균형</h3>
+                        <p class="text-gray-700">개인과 사회에 미치는 이익과 잠재적 해악을 고려하고, 취약 집단을 보호해야 합니다.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-2 text-indigo-700">개인정보 보호</h3>
+                        <p class="text-gray-700">행동 데이터 수집 및 사용에 있어 개인정보를 보호하고, 동의 및 데이터 보안의 중요성을 인식해야 합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 결론 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-800">결론</h2>
+                <p class="mb-4 text-gray-700">
+                    행동심리학은 마케팅, 교육, 건강, 조직, 기술, 공공 정책 등 다양한 분야에 응용되어 개인과 사회의 행동 변화를 촉진하고 있습니다. 
+                    이러한 응용은 인간의 행동과 의사결정에 대한 과학적 이해를 바탕으로 하며, 적절히 활용될 경우 개인의 웰빙과 사회적 발전에 기여할 수 있습니다.
+                </p>
+                <p class="mb-4 text-gray-700">
+                    그러나 행동심리학의 원리를 응용할 때는 윤리적 고려사항을 염두에 두고, 개인의 자율성과 존엄성을 존중하는 방식으로 접근해야 합니다. 
+                    또한, 각 개인과 상황의 특성에 맞게 적절히 조정하여 적용하는 것이 중요합니다.
+                </p>
+                <p class="text-gray-700">
+                    행동심리학의 응용은 계속해서 발전하고 있으며, 새로운 기술과 환경의 변화에 따라 그 범위와 방법도 확장되고 있습니다. 
+                    앞으로도 행동심리학은 우리의 일상생활과 사회 전반에 걸쳐 중요한 영향을 미칠 것으로 예상됩니다.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 섹션 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">행동심리학 연구 프로젝트</h3>
+                    <p class="text-gray-400">행동심리학의 이론과 원리, 그리고 일상생활에서의 응용에 대한 종합적인 연구 프로젝트입니다.</p>
+                </div>
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">페이지 링크</h3>
+                    <ul class="text-gray-400">
+                        <li class="mb-1"><a href="index.html" class="hover:text-white">홈</a></li>
+                        <li class="mb-1"><a href="overview.html" class="hover:text-white">행동심리학 개요</a></li>
+                        <li class="mb-1"><a href="episodes-1.html" class="hover:text-white">사례 연구 (1)</a></li>
+                        <li class="mb-1"><a href="episodes-2.html" class="hover:text-white">사례 연구 (2)</a></li>
+                        <li class="mb-1"><a href="applications.html" class="hover:text-white">응용 분야</a></li>
+                        <li class="mb-1"><a href="trends.html" class="hover:text-white">연구 동향</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <h3 class="text-xl font-bold mb-2">프로젝트 정보</h3>
+                    <p class="text-gray-400">© 2025 행동심리학 연구 프로젝트</p>
+                    <p class="text-gray-400">최종 업데이트: April 18, 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleNavbar() {
+            const navbarMenu = document.getElementById('navbar-menu');
+            if (navbarMenu.classList.contains('hidden')) {
+                navbarMenu.classList.remove('hidden');
+            } else {
+                navbarMenu.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행동심리학 연구 동향 - 행동심리학 연구 프로젝트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- 헤더 섹션 -->
+    <header class="bg-gradient-to-r from-purple-700 to-indigo-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 md:py-10">
+            <h1 class="text-3xl md:text-5xl font-bold mb-2">행동심리학 연구 동향</h1>
+            <p class="text-xl opacity-90">최신 연구와 발전하는 행동심리학의 방향성</p>
+        </div>
+    </header>
+
+    <!-- 네비게이션 바 -->
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center justify-between py-3">
+                <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block">
+                    <a href="index.html" class="text-lg font-bold leading-relaxed inline-block mr-4 py-2">
+                        행동심리학
+                    </a>
+                    <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-indigo-600 block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar()">
+                        <span>≡</span>
+                    </button>
+                </div>
+                <div class="lg:flex flex-grow items-center hidden" id="navbar-menu">
+                    <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                        <li class="nav-item">
+                            <a href="overview.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                개요
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="episodes-1.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                사례연구 (1)
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="episodes-2.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                사례연구 (2)
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="applications.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug hover:text-indigo-600">
+                                응용분야
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="trends.html" class="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-indigo-600">
+                                연구동향
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- 소개 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-800">행동심리학의 최신 연구 동향</h2>
+                <p class="mb-4 text-gray-700">
+                    행동심리학은 인간과 동물의 관찰 가능한 행동에 초점을 맞추는 심리학의 한 분야로, 환경과 행동 간의 관계를 연구합니다. 
+                    최근 몇 년간 행동심리학은 인지신경과학, 디지털 기술, 데이터 분석 등의 발전과 함께 계속해서 새로운 연구 영역을 개척하고 있습니다. 
+                    이 페이지에서는 행동심리학의 최신 연구 동향과 미래 전망을 살펴보겠습니다.
+                </p>
+                <div class="flex justify-center my-6">
+                    <img src="images/trends_hero.jpg" alt="행동심리학 연구 동향" class="rounded-lg shadow-md max-w-full h-auto" style="max-height: 300px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- 행동경제학과의 통합 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">1. 행동경제학과의 통합</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학과 경제학의 융합으로 탄생한 행동경제학은 계속해서 발전하고 있으며, 의사결정 과정의 심리적 요인을 경제 모델에 통합하는 연구가 활발히 진행되고 있습니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-indigo-50 p-5 rounded-lg">
+                        <h3 class="text-xl font-bold mb-3 text-indigo-700">주요 연구 분야</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>사회적 선호와 공정성 연구</li>
+                            <li>시간 불일치와 자기 통제 문제</li>
+                            <li>불확실성 하에서의 의사결정</li>
+                            <li>휴리스틱과 인지적 편향의 영향</li>
+                        </ul>
+                    </div>
+                    <div class="bg-indigo-50 p-5 rounded-lg">
+                        <h3 class="text-xl font-bold mb-3 text-indigo-700">주목할 만한 최근 발견</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>사회적 비교가 경제적 의사결정에 미치는 영향</li>
+                            <li>기후 변화 대응에 관한 행동경제학적 접근</li>
+                            <li>행동경제학 이론을 활용한 빈곤 감소 정책</li>
+                            <li>자산 형성 행동과 심리적 요인의 관계</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow p-5 mb-4">
+                    <h3 class="text-xl font-bold mb-3 text-indigo-700">주요 학자 및 연구 기관</h3>
+                    <div class="overflow-x-auto">
+                        <table class="research-table">
+                            <thead>
+                                <tr>
+                                    <th>학자/기관</th>
+                                    <th>연구 분야</th>
+                                    <th>주요 기여</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>리처드 탈러</td>
+                                    <td>행동경제학, 넛지 이론</td>
+                                    <td>심리적 요인이 경제적 의사결정에 미치는 영향 연구</td>
+                                </tr>
+                                <tr>
+                                    <td>캐스 선스타인</td>
+                                    <td>법학, 행동과학</td>
+                                    <td>넛지 이론의 공공정책 적용</td>
+                                </tr>
+                                <tr>
+                                    <td>행동 인사이트 팀(BIT)</td>
+                                    <td>공공 정책</td>
+                                    <td>행동과학 원리를 정부 정책에 적용</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <blockquote class="mb-0">
+                    "행동경제학은 인간의 실제 의사결정 과정이 전통적인 경제학 모델이 가정하는 것과 어떻게 다른지 보여주며, 이를 통해 더 효과적인 정책과 개입을 설계할 수 있게 해줍니다."
+                    <p class="research-citation">- 리처드 탈러, 2017년 노벨 경제학상 수상자</p>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- 디지털 행동 추적 및 분석 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">2. 디지털 행동 추적 및 분석</h2>
+                <p class="mb-6 text-gray-700">
+                    디지털 기술의 발전으로 인해 방대한 양의 행동 데이터를 수집하고 분석할 수 있게 되었으며, 이는 행동심리학 연구에 새로운 기회와 도전을 제공하고 있습니다.
+                </p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <div class="flex items-center justify-center mb-4">
+                            <div class="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold">1</div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-center text-indigo-700">웨어러블 기술</h3>
+                        <p class="text-gray-700">
+                            스마트워치, 활동 추적기 등의 웨어러블 기기를 통해 실시간 생리적 데이터와 활동 패턴을 수집하여 행동 변화를 연구하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <div class="flex items-center justify-center mb-4">
+                            <div class="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold">2</div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-center text-indigo-700">디지털 발자국 분석</h3>
+                        <p class="text-gray-700">
+                            소셜 미디어 활동, 검색 기록, 앱 사용 패턴 등의 디지털 발자국을 분석하여 개인의 성격, 선호도, 행동 경향을 예측하는 연구가 진행되고 있습니다.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <div class="flex items-center justify-center mb-4">
+                            <div class="bg-indigo-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold">3</div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-center text-indigo-700">머신러닝 응용</h3>
+                        <p class="text-gray-700">
+                            머신러닝 알고리즘을 활용하여 행동 패턴을 식별하고, 행동 변화 예측 모델을 개발하는 연구가 활발히 진행되고 있습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-indigo-50 to-purple-50 p-5 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3 text-indigo-700">윤리적 고려사항</h3>
+                    <p class="mb-3 text-gray-700">
+                        디지털 행동 데이터의 수집과 분석이 확대됨에 따라 연구자들은 다음과 같은 윤리적 문제를 고려해야 합니다:
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>개인정보 보호 및 데이터 보안</li>
+                        <li>알고리즘 편향과 공정성</li>
+                        <li>정보에 기반한 동의</li>
+                        <li>행동 조작 및 자율성 침해 위험</li>
+                        <li>취약 집단 보호</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 행동 변화와 건강 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">3. 행동 변화와 건강</h2>
+                <p class="mb-6 text-gray-700">
+                    건강 관련 행동 변화를 촉진하기 위한 행동심리학 원리 적용에 관한 연구가 급속히 증가하고 있으며, 디지털 건강 중재와의 통합이 주목받고 있습니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">주요 연구 영역</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">습관 형성 및 변화</h4>
+                                <p class="text-gray-700">습관의 형성과 변화 과정에 대한 이해를 바탕으로, 지속 가능한 건강 행동을 촉진하는 효과적인 개입 방법을 연구하고 있습니다.</p>
+                            </div>
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">디지털 건강 앱</h4>
+                                <p class="text-gray-700">행동 추적, 목표 설정, 즉각적 피드백 등의 행동 변화 기법을 통합한 디지털 건강 앱의 효과를 검증하는 연구가 진행되고 있습니다.</p>
+                            </div>
+                            <div class="border-l-4 border-indigo-500 pl-4">
+                                <h4 class="font-bold text-indigo-800">소셜 인플루언스</h4>
+                                <p class="text-gray-700">사회적 규범, 사회적 비교, 사회적 지지 등이 건강 행동에 미치는 영향과 이를 활용한 개입 방법에 관한 연구가 주목받고 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">최근 연구 결과</h3>
+                        <div class="bg-white rounded-lg shadow p-5">
+                            <h4 class="font-bold text-indigo-800 mb-2">마이크로 습관 형성</h4>
+                            <p class="text-gray-700 mb-3">
+                                작은 행동을 기존 루틴에 연결하는 '미니 습관' 접근법이 전통적인 목표 설정 방법보다 장기적인 행동 변화에 더 효과적일 수 있다는 연구 결과가 발표되었습니다.
+                            </p>
+                            <p class="research-citation">
+                                출처: 포그(Fogg, B.J.), 2019. "Tiny Habits: The Small Changes That Change Everything"
+                            </p>
+                        </div>
+                        <div class="bg-white rounded-lg shadow p-5 mt-4">
+                            <h4 class="font-bold text-indigo-800 mb-2">시간적 접근성과 건강 식품 선택</h4>
+                            <p class="text-gray-700 mb-3">
+                                건강한 식품의 시간적 접근성(준비 시간)을 줄이는 것이 식품 선택에 큰 영향을 미칠 수 있다는 연구 결과가 발표되었습니다. 이는 식품 환경 디자인의 중요성을 강조합니다.
+                            </p>
+                            <p class="research-citation">
+                                출처: 노스웨스턴 대학교, 2022. "Temporal Convenience and Food Choice"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 사회적 행동과 기술 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">4. 사회적 행동과 기술</h2>
+                <p class="mb-6 text-gray-700">
+                    디지털 환경에서의 사회적 행동 패턴과 소셜 미디어가 행동과 인식에 미치는 영향에 관한 연구가 급속히 증가하고 있습니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">온라인 사회적 영향</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">에코 챔버 효과:</span> 소셜 미디어에서 유사한 의견을 가진 사람들끼리 모이는 현상과 그 영향에 관한 연구
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">디지털 사회적 규범:</span> 온라인 환경에서 사회적 규범이 형성되고 행동에 영향을 미치는 방식에 관한 연구
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">온라인 사회적 비교:</span> 소셜 미디어의 사회적 비교가 자아 인식, 심리적 웰빙, 행동에 미치는 영향
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">디지털 행동 중독</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">소셜 미디어 중독:</span> 소셜 미디어 사용의 중독적 패턴과 그 심리적 영향에 관한 연구
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">행동적 디자인 윤리:</span> 사용자 참여를 최대화하기 위한 디지털 제품 설계의 윤리적 측면에 관한 연구
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-indigo-600 mr-2">✓</span>
+                                <div>
+                                    <span class="font-bold">디지털 웰빙:</span> 건강한 디지털 습관 형성 및 중독 방지를 위한 개입 방법 연구
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-purple-50 to-indigo-50 p-5 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3 text-center text-indigo-700">대표적 연구 사례</h3>
+                    <blockquote>
+                        스탠포드 대학의 연구팀은 소셜 미디어 플랫폼에서 '좋아요'와 같은 사회적 피드백의 가시성을 조정하는 실험을 통해, 이러한 피드백 메커니즘이 사용자의 콘텐츠 소비 및 생산 패턴에 미치는 영향을 조사했습니다. 연구 결과, 사회적 피드백의 가시성을 줄이면 콘텐츠 품질에 대한 평가가 더 객관적으로 이루어지고, 사회적 비교로 인한 부정적 영향이 감소하는 것으로 나타났습니다.
+                        <p class="research-citation">출처: 스탠포드 대학교, 2023. "Social Feedback Mechanisms in Digital Environments"</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- 행동심리학과 지속가능성 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">5. 행동심리학과 지속가능성</h2>
+                <p class="mb-6 text-gray-700">
+                    환경 보호 및 지속 가능한 행동을 촉진하기 위한 행동심리학 원리의 적용에 관한 연구가 계속 증가하고 있습니다.
+                </p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">환경 친화적 행동 촉진</h3>
+                        <div class="bg-indigo-50 p-4 rounded-lg mb-4">
+                            <h4 class="font-bold text-indigo-800 mb-2">디폴트 옵션 설계</h4>
+                            <p class="text-gray-700">친환경적 선택을 기본 옵션으로 설정하는 것이 환경 친화적 행동을 크게 증가시킬 수 있다는 연구 결과가 발표되었습니다.</p>
+                        </div>
+                        <div class="bg-indigo-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-indigo-800 mb-2">사회적 규범 활용</h4>
+                            <p class="text-gray-700">환경 친화적 행동에 관한 사회적 규범 메시지가 개인의 행동 변화에 효과적이라는 다양한 연구 결과가 축적되고 있습니다.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-indigo-700">주요 연구 분야</h3>
+                        <div class="bg-indigo-50 p-4 rounded-lg mb-4">
+                            <h4 class="font-bold text-indigo-800 mb-2">에너지 절약 행동</h4>
+                            <p class="text-gray-700">실시간 피드백, 사회적 비교, 목표 설정 등의 기법을 활용한 에너지 절약 행동 촉진 연구가 활발히 진행되고 있습니다.</p>
+                        </div>
+                        <div class="bg-indigo-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-indigo-800 mb-2">지속 가능한 소비</h4>
+                            <p class="text-gray-700">지속 가능한 제품 선택과 소비 감소를 촉진하는 행동 개입 방법에 관한 연구가 증가하고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow p-5">
+                    <h3 class="text-xl font-bold mb-3 text-indigo-700">주목할 만한 연구 사례</h3>
+                    <p class="text-gray-700 mb-4">
+                        영국의 연구팀은 주거 지역의 에너지 사용량을 이웃과 비교한 정보를 제공하는 실험을 통해, 사회적 비교 피드백이 에너지 소비 감소에 효과적이라는 것을 입증했습니다. 
+                        특히, 피드백과 함께 실행 가능한 에너지 절약 팁을 제공했을 때 그 효과가 더욱 크게 나타났습니다.
+                    </p>
+                    <div class="overflow-x-auto">
+                        <table class="research-table">
+                            <thead>
+                                <tr>
+                                    <th>개입 유형</th>
+                                    <th>평균 에너지 절감률</th>
+                                    <th>지속 기간</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>정보 제공만</td>
+                                    <td>2.3%</td>
+                                    <td>1-2개월</td>
+                                </tr>
+                                <tr>
+                                    <td>사회적 비교 피드백</td>
+                                    <td>5.7%</td>
+                                    <td>3-6개월</td>
+                                </tr>
+                                <tr>
+                                    <td>피드백 + 실행 팁</td>
+                                    <td>8.9%</td>
+                                    <td>6개월 이상</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="research-citation">
+                        출처: 런던 경제 대학, 2023. "Behavioral Interventions for Energy Conservation"
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 미래 방향성 섹션 -->
+        <section class="mb-12">
+            <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-indigo-800">행동심리학의 미래 방향성</h2>
+                <p class="mb-6 text-gray-700">
+                    행동심리학 분야는 다양한 학문과의 융합과 기술 발전을 통해 계속해서 진화하고 있습니다. 다음은 앞으로 주목할 만한 발전 방향입니다.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-3 text-indigo-700">인공지능과의 융합</h3>
+                        <p class="text-gray-700">
+                            인공지능과 행동심리학의 융합을 통해 개인 맞춤형 행동 변화 프로그램, 실시간 개입, 정밀한 행동 예측 모델 등의 발전이 예상됩니다.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-3 text-indigo-700">신경과학과의 통합</h3>
+                        <p class="text-gray-700">
+                            행동의 신경 메커니즘에 대한 이해가 깊어짐에 따라, 행동심리학과 신경과학의 통합적 접근이 행동 변화에 대한 더 정교한 모델을 제공할 것으로 예상됩니다.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <h3 class="text-xl font-bold mb-3 text-indigo-700">문화간 행동 연구</h3>
+                        <p class="text-gray-700">
+                            다양한 문화적 맥락에서의 행동 패턴, 행동 변화 전략의 문화적 적응 등 문화간 행동 연구의 확대가 예상됩니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 결론 섹션 -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-800">결론</h2>
+                <p class="mb-4 text-gray-700">
+                    행동심리학은 디지털 기술의 발전, 다학제적 접근의 확대, 데이터 수집 및 분석 방법의 혁신 등을 통해 계속해서 발전하고 있습니다. 
+                    이러한 발전은 인간 행동에 대한 더 깊은 이해와 다양한 사회적 문제 해결을 위한 효과적인 개입 방법 개발에 기여하고 있습니다.
+                </p>
+                <p class="mb-4 text-gray-700">
+                    그러나 행동 데이터의 수집과 활용이 확대됨에 따라 개인정보 보호, 행동 조작, 알고리즘 편향 등의 윤리적 문제에 대한 신중한 고려도 함께 필요합니다. 
+                    행동심리학이 개인과 사회에 긍정적인 영향을 미치기 위해서는 이러한 윤리적 측면에 대한 지속적인 논의와 적절한 규제 체계의 발전이 중요합니다.
+                </p>
+                <p class="text-gray-700">
+                    미래의 행동심리학은 인공지능, 신경과학, 데이터 과학 등 다양한 분야와의 협력을 통해 더욱 정교하고 개인화된 행동 이해와 개입 방법을 발전시켜 나갈 것으로 기대됩니다.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 섹션 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">행동심리학 연구 프로젝트</h3>
+                    <p class="text-gray-400">행동심리학의 이론과 원리, 그리고 일상생활에서의 응용에 대한 종합적인 연구 프로젝트입니다.</p>
+                </div>
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">페이지 링크</h3>
+                    <ul class="text-gray-400">
+                        <li class="mb-1"><a href="index.html" class="hover:text-white">홈</a></li>
+                        <li class="mb-1"><a href="overview.html" class="hover:text-white">행동심리학 개요</a></li>
+                        <li class="mb-1"><a href="episodes-1.html" class="hover:text-white">사례 연구 (1)</a></li>
+                        <li class="mb-1"><a href="episodes-2.html" class="hover:text-white">사례 연구 (2)</a></li>
+                        <li class="mb-1"><a href="applications.html" class="hover:text-white">응용 분야</a></li>
+                        <li class="mb-1"><a href="trends.html" class="hover:text-white">연구 동향</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <h3 class="text-xl font-bold mb-2">프로젝트 정보</h3>
+                    <p class="text-gray-400">© 2025 행동심리학 연구 프로젝트</p>
+                    <p class="text-gray-400">최종 업데이트: April 18, 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleNavbar() {
+            const navbarMenu = document.getElementById('navbar-menu');
+            if (navbarMenu.classList.contains('hidden')) {
+                navbarMenu.classList.remove('hidden');
+            } else {
+                navbarMenu.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
